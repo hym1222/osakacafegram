@@ -3,13 +3,14 @@ h1 {
   }
   
   .cover-new {
-    height: 100%;
+    height: 100vh;
     width: 100%;
-    background-image: url(/assets/new-scaled.jpg);
+    background-image: url('/assets/coffee-2306471_1280.jpg');
     background-color: rgba(255, 255, 255, 0.4);
     background-blend-mode: lighten;
-    background-size: 100% 100%;
-  }
+    background-size: cover;
+    background-position: center;
+}
   
   .form-label {
     font-size: 20px;
@@ -20,12 +21,13 @@ h1 {
   }
 
 .cover-index {
-  height: 110%;
+  height: 100vh;
   width: 100%;
-  background-image: url(/assets/index-scaled.jpg);
+  background-image: url('/assets/white_00096.jpg');
   background-color: rgba(255, 255, 255, 0.4);
   background-blend-mode: lighten;
-  background-size: 100% 100%;
+  background-size: cover;
+  background-position: center;
 }
 
 .one-post img:hover {
@@ -43,12 +45,13 @@ h1 {
 }
 
 .cover-show {
-    height: 100%;
-    width: 100%;
-    background-image: url(/assets/show-scaled.jpg);
-    background-color: rgba(255, 255, 255, 0.4);
-    background-blend-mode: lighten;
-    background-size: 100% 100%;
+  height: 100vh;
+  width: 100%;
+  background-image: url('/assets/white_00096.jpg');
+  background-color: rgba(255, 255, 255, 0.4);
+  background-blend-mode: lighten;
+  background-size: cover;
+  background-position: center;
   }
   
   #text {
@@ -56,12 +59,13 @@ h1 {
   }
 
   .cover-edit {
-    height: 100%;
+    height: 100vh;
     width: 100%;
-    background-image: url(/assets/edit-scaled.jpg);
+    background-image: url('/assets/coffeehouse-2600877_1280.jpg');
     background-color: rgba(255, 255, 255, 0.4);
     background-blend-mode: lighten;
-    background-size: 100% 100%;
+    background-size: cover;
+    background-position: center;
   }
 
   .page a,
