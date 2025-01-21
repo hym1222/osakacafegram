@@ -30,9 +30,26 @@ h1 {
   background-position: center;
 }
 
-.one-post img:hover {
-  transform: scale(1.2,1.2);
+/* 親要素をFlexboxに変更 */
+.index-left {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px; /* アイテム間の隙間 */
 }
+
+/* 各投稿を3列に設定 */
+.post-card {
+  flex: 1 0 calc(33.33% - 20px); /* 1行に3つ並べる */
+  box-sizing: border-box;
+}
+
+/* ホバー時のエフェクト */
+.post-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+
 
 .caption {
   color: black;
