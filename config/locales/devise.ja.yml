@@ -12,12 +12,6 @@ ja:
               blank: "パスワードを入力してください。"
             name:
               blank: "名前を入力してください。"
-
-
-ja:
-  activerecord:
-    errors:
-      models:
         post:
           attributes:
             location:
