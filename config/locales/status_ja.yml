@@ -4,7 +4,6 @@ ja:
       status:
         published: '投稿する'
         draft: '下書きする'
-ja:
   time:
     formats:
       short: "%Y/%m/%d %H:%M"
