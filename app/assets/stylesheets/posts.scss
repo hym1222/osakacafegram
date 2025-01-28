@@ -3,7 +3,7 @@ h1 {
   }
   
   .cover-new {
-    height: 100vh;
+    min-height: 100vh;
     width: 100%;
     background-image: url('/assets/coffee-2306471_1280.jpg');
     background-color: rgba(255, 255, 255, 0.4);
@@ -30,40 +30,47 @@ h1 {
   background-position: center;
 }
 
-/* カード全体のスタイル */
+/* 投稿一覧のカードを横並びにするためのスタイル */
+.post-list {
+  display: flex;
+  flex-wrap: wrap; /* 行が折り返されるようにする */
+  gap: 20px; /* カード間の間隔 */
+  justify-content: space-between; /* カードの間隔を均等に */
+}
+
+/* 各カードのスタイル */
 .post-card {
-  border: 1px solid #ccc; /* 通常時のボーダー */
+  flex-basis: calc(25% - 20px); /* 1行に4つ表示 (4つに分割し、隙間を引く) */
+  border: 1px solid #ccc;
   border-radius: 8px;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* 通常時のシャドウ */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
   overflow: hidden;
   background-color: #fff;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
+  margin-bottom: 20px; /* カード下部の余白 */
+  height: auto;
+  width: 300px;
 }
 
 /* ホバー時にカードが浮き上がるエフェクト */
 .post-card:hover {
   transform: translateY(-5px);
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* ホバー時の強調されたシャドウ */
-}
-
-/* カードのヘッダー部分のスタイル */
-.post-card-header {
-  padding: 10px;
-  background-color: #f7f7f7;
-  font-weight: bold;
-  text-align: center;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
 }
 
 /* カードの本文部分のスタイル */
 .post-card-body {
   padding: 15px;
   text-align: center;
+  width: 100%; /* 画像を親要素の幅に合わせる */
+  box-sizing: border-box;
 }
 
+/* 投稿一覧の画像スタイル */
 .post-card-body img {
-  width: 100%;
-  max-width: 300px;
-  height: auto;
+  width: 100%; /* 親要素の幅に合わせて画像をリサイズ */
+  height: auto; /* アスペクト比を保ちながら高さを調整 */
+  object-fit: cover; /* 画像が親要素に収まるように調整 */
   margin-bottom: 10px;
 }
 
@@ -73,11 +80,31 @@ h1 {
   color: #555;
 }
 
-.caption {
+/* ページネーションのスタイル */
+.page a,
+.next a,
+.last a,
+.first a,
+.prev a {
   color: black;
-  font-size: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
   text-decoration: none;
 }
+
+.page a:hover,
+.next a:hover,
+.last a:hover,
+.first a:hover,
+.prev a:hover {
+  color: #007bff; /* ホバー時に色を変更 */
+}
+
+.current {
+  font-weight: bold;
+  color: #007bff; /* 現在のページの色を変更 */
+}
+
 
 .index-left {
   margin-left: 2.5rem!important;
@@ -107,28 +134,6 @@ h1 {
     background-position: center;
   }
 
-  .page a,
-.next a,
-.last a,
-.first a,
-.prev a {
-  color: black;
-  margin-left: 10px;
-  margin-right: 10px;
-}
-
-.page a:hover,
-.next a:hover,
-.last a:hover,
-.first a:hover,
-.prev a:hover {
-  color: black;
-}
-
-.current {
-  font-weight: bold;
-}
-
 .comments-index {
   background-color: #fff;
   border: 1px #000 solid;
@@ -148,4 +153,15 @@ h1 {
 
 .favorite_btn {
   color: #000;
+}
+
+@media screen and (max-width: 575px) {
+  .cover-new {
+    width: 100%;
+    padding: 0 1em;
+  }
+  .form-group {
+    width: 100%;
+    padding: 0 1em;
+  }
 }

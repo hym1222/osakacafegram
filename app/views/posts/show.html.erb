@@ -13,7 +13,7 @@
     <% end %>
     <div class="container d-flex mt-5">
     <div class="d-block">
-      <div class="one-post">
+      <div class="one-post w-100">
         <p class="caption"><%= @post.user.name %></p>
         <%= attachment_image_tag @post, :image, format: 'jpeg', size: "450x350" %><br>
         <p class="caption"><%= @post.location %>
