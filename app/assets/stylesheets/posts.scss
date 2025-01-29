@@ -156,14 +156,119 @@ h1 {
 }
 
 @media screen and (max-width: 575px) {
+  /* 既存の設定 */
+  html, body {
+      overflow-x: hidden;
+      margin: 0;
+      padding: 0;
+      width: 100%;
+  }
+
+  * {
+      box-sizing: border-box;
+  }
+
+  .container {
+      max-width: 100%;
+      width: 100%;
+      padding: 0;
+      margin: 0 auto;
+  }
+
+  .row {
+      margin: 0;
+  }
+
+  .cover-show {
+      width: 100%;
+      max-width: 100%;
+      padding: 10px;
+      margin: 0 auto;
+  }
+
+  .one-post {
+      width: 100%;
+      max-width: 100%;
+      text-align: center;
+  }
+
+  .one-post img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+      margin: 0 auto;
+  }
+
+  .comments {
+      width: 100%;
+      max-width: 100%;
+      margin-left: 0;
+      padding: 10px;
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+  }
+
+  .comments form {
+      width: 100%;
+      max-width: 100%;
+  }
+
+  .comments textarea {
+      width: 100%;
+      max-width: 100%;
+      padding: 5px;
+      font-size: 14px;
+  }
+
+  .comments-index {
+      width: 100%;
+      max-width: 100%;
+      text-align: left;
+      padding: 10px;
+  }
+
+  .comment-delete {
+      text-align: right;
+  }
+
+  /* 新たに追加されたスタイル */
   .cover-new {
     width: 100%;
     padding: 0 1em;
     background-image: url('/assets/pexels-heather-green-1125370-18368498.jpg'); /* スマホ用の背景画像 */
   }
+
   .form-group {
     width: 100%;
     padding: 0 1em;
   }
-}
 
+  .cover-show {
+      padding: 10px;
+  }
+
+  .one-post {
+      width: 100%;
+      text-align: center;
+  }
+
+  .one-post img {
+      max-width: 100%;
+      height: auto;
+  }
+
+  .comments {
+      width: 100%;
+      margin-left: 0;
+  }
+
+  .comments-index {
+      text-align: left;
+      padding: 10px;
+  }
+
+  .comment-delete {
+      text-align: right;
+  }
+}
