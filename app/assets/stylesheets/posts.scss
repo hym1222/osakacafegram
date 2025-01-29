@@ -118,13 +118,14 @@ h1 {
   background-blend-mode: lighten;
   background-size: cover;
   background-position: center;
+  padding-bottom: 50px; /* 下部に余白を追加 */
   }
   
   #text {
     font-size: 18px;
   }
 
-  .cover-edit {
+.cover-edit {
     height: 100vh;
     width: 100%;
     background-image: url('/assets/coffeehouse-2600877_1280.jpg');
@@ -132,11 +133,12 @@ h1 {
     background-blend-mode: lighten;
     background-size: cover;
     background-position: center;
-  }
+}
 
 .comments-index {
   background-color: #fff;
   border: 1px #000 solid;
+  padding-bottom: 50px; /* 下部に余白を追加 */
 }
 
 .comment-delete {
@@ -145,6 +147,7 @@ h1 {
 
 .comments {
   margin-left: 50px;
+  margin-bottom: 50px; /* 下部に余白を追加 */
 }
 
 .caption {
@@ -190,6 +193,7 @@ h1 {
       width: 100%;
       max-width: 100%;
       text-align: center;
+      margin-bottom: 50px; /* 下部に余白を追加 */
   }
 
   .one-post img {
