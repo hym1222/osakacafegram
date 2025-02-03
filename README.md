@@ -50,13 +50,15 @@ Osakacafegramは、大阪のカフェに特化したSNSプラットフォーム�
 ![Image](https://github.com/user-attachments/assets/e545ebc9-dcaf-45dd-af04-0d2874539e81)
 
 2. **カフェ情報の検索や閲覧**
-![Image](https://github.com/user-attachments/assets/7bb8a2c2-6ae2-4d8d-ab2c-c8e4da02d4f6)
+![Image](https://github.com/user-attachments/assets/78a44c5e-8199-4847-897a-bd9f72f11c00)
+
 3. **自分の訪れたカフェの情報を投稿し、写真と感想を共有**
+![Image](https://github.com/user-attachments/assets/7bb8a2c2-6ae2-4d8d-ab2c-c8e4da02d4f6)
+
+4. **他のユーザーの投稿にコメントや「いいね」を送る**
 ![Image](https://github.com/user-attachments/assets/5d0e036c-409d-47ec-bf19-c94af7ce96e9)
 ![Image](https://github.com/user-attachments/assets/930544e7-a348-4099-b98a-96bed926fb89)
 
-5. **他のユーザーの投稿にコメントや「いいね」を送る**
-![Image](https://github.com/user-attachments/assets/78a44c5e-8199-4847-897a-bd9f72f11c00)
 
 ## 機能一覧
 
