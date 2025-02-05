@@ -27,8 +27,7 @@ FROM base AS build
 
 # Install packages needed to build gems
 RUN apt-get update -qq && \
-    apt-get install --no-install-recommends -y build-essential git libvips pkg-config libpq-dev && \
-    rm -rf /var/lib/apt/lists/* /var/cache/apt/archives/*
+    apt-get install --no-install-recommends -y build-essential git libvips pkg-config libpq-dev
 
 # Install packages needed for deployment
 RUN apt-get update -qq && \
