@@ -1,72 +1,62 @@
 # syntax = docker/dockerfile:1
 
-# This Dockerfile is designed for production, not development. Use with Kamal or build'n'run by hand:
-# docker build -t my-app .
-# docker run -d -p 80:80 -p 443:443 --name my-app -e RAILS_MASTER_KEY=<value from config/master.key> my-app
-
-# Make sure RUBY_VERSION matches the Ruby version in .ruby-version
+# Dockerイメージをビルドする際のRubyバージョン
 ARG RUBY_VERSION=3.1.2
 FROM docker.io/library/ruby:$RUBY_VERSION-slim AS base
 
-# Rails app lives here
+# 作業ディレクトリ
 WORKDIR /rails
 
-# Install base packages
+# 基本パッケージのインストール（軽量化のため必要最小限）
 RUN apt-get update -qq && \
-    apt-get install --no-install-recommends -y curl libjemalloc2 libvips sqlite3 && \
-    rm -rf /var/lib/apt/lists/* /var/cache/apt/archives/*
+    apt-get install --no-install-recommends -y curl libjemalloc2 libvips && \
+    apt-get clean && rm -rf /var/lib/apt/lists/*
 
-# Set production environment
+# 環境変数設定
 ENV RAILS_ENV="production" \
     BUNDLE_DEPLOYMENT="1" \
     BUNDLE_PATH="/usr/local/bundle" \
-    BUNDLE_WITHOUT="development"
+    BUNDLE_WITHOUT="development test" \
+    LD_PRELOAD="/usr/lib/x86_64-linux-gnu/libjemalloc.so.2"
 
-# Throw-away build stage to reduce size of final image
+# ビルド専用のステージ（最終イメージの軽量化）
 FROM base AS build
 
-# Install packages needed to build gems
+# Gemのビルドに必要なパッケージ
 RUN apt-get update -qq && \
-    apt-get install --no-install-recommends -y build-essential git libvips pkg-config libpq-dev
+    apt-get install --no-install-recommends -y build-essential git pkg-config libpq-dev && \
+    apt-get clean && rm -rf /var/lib/apt/lists/*
 
-# Install packages needed for deployment
-RUN apt-get update -qq && \
-    apt-get install --no-install-recommends -y curl libsqlite3-0 libvips libpq-dev && \
-    rm -rf /var/lib/apt/lists/* /var/cache/apt/archives/*
-
-# Install application gems
+# Gemのインストール
 COPY Gemfile Gemfile.lock ./
 RUN bundle install --verbose && \
     rm -rf ~/.bundle/ "${BUNDLE_PATH}"/ruby/*/cache "${BUNDLE_PATH}"/ruby/*/bundler/gems/*/.git
 
-# Comment out bootsnap to avoid issues for now
-# RUN bundle exec bootsnap precompile --gemfile
-
-# Copy application code
+# アプリコードのコピー
 COPY . .
 
-# Precompile bootsnap code for faster boot times
+# bootsnap を事前コンパイル（アプリ起動を高速化）
 RUN bundle exec bootsnap precompile app/ lib/
 
-# Precompiling assets for production without requiring secret RAILS_MASTER_KEY
+# assets を事前コンパイル（RAILS_MASTER_KEY不要のダミーキーで実行）
 RUN SECRET_KEY_BASE_DUMMY=1 ./bin/rails assets:precompile
 
-# Final stage for app image
+# 本番環境用の最終ステージ
 FROM base
 
-# Copy built artifacts: gems, application
+# 必要なファイルのみコピー（最終イメージを軽量化）
 COPY --from=build "${BUNDLE_PATH}" "${BUNDLE_PATH}"
 COPY --from=build /rails /rails
 
-# Run and own only the runtime files as a non-root user for security
+# 実行ユーザーの作成（セキュリティ強化）
 RUN groupadd --system --gid 1000 rails && \
-    useradd rails --uid 1000 --gid 1000 --create-home --shell /bin/bash && \
+    useradd --system --uid 1000 --gid 1000 --create-home --shell /bin/bash rails && \
     chown -R rails:rails db log storage tmp
 USER 1000:1000
 
-# Entrypoint prepares the database.
+# データベース準備用のエントリポイント
 ENTRYPOINT ["/rails/bin/docker-entrypoint"]
 
-# Start the server by default, this can be overwritten at runtime
+# デフォルトの実行コマンド
 EXPOSE 3000
 CMD ["./bin/rails", "server"]
