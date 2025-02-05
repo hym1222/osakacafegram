@@ -5,7 +5,7 @@ h1 {
   .cover-new {
     min-height: 100vh;
     width: 100%;
-    background-image: url('/assets/coffee-2306471_1280.jpg');
+    background-image: image-url("coffee-2306471_1280.jpg");
     background-color: rgba(255, 255, 255, 0.4);
     background-blend-mode: lighten;
     background-size: cover;
@@ -23,7 +23,7 @@ h1 {
 .cover-index {
   min-height: 100vh;
   width: 100%;
-  background-image: url('/assets/white_00096.jpg');
+  background-image: image-url("white_00096.jpg");
   background-color: rgba(255, 255, 255, 0.4);
   background-blend-mode: lighten;
   background-size: cover;
@@ -113,7 +113,7 @@ h1 {
 .cover-show {
   min-height: 100vh;
   width: 100%;
-  background-image: url('/assets/white_00096.jpg');
+  background-image: image-url("white_00096.jpg");
   background-color: rgba(255, 255, 255, 0.4);
   background-blend-mode: lighten;
   background-size: cover;
@@ -128,7 +128,7 @@ h1 {
 .cover-edit {
     height: 100vh;
     width: 100%;
-    background-image: url('/assets/coffeehouse-2600877_1280.jpg');
+    background-image: image-url("coffeehouse-2600877_1280.jpg");
     background-color: rgba(255, 255, 255, 0.4);
     background-blend-mode: lighten;
     background-size: cover;
@@ -240,7 +240,7 @@ h1 {
   .cover-new {
     width: 100%;
     padding: 0 1em;
-    background-image: url('/assets/pexels-heather-green-1125370-18368498.jpg'); /* スマホ用の背景画像 */
+    background-image: image-url("pexels-heather-green-1125370-18368498.jpg"); /* スマホ用の背景画像 */
   }
 
   .form-group {

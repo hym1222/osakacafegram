@@ -1,7 +1,7 @@
 .cover-user-show {
     min-height: 100%;
     width: 100%;
-    background-image: url(/assets/white_00096.jpg);
+    background-image: image-url("white_00096.jpg");
     background-color: #ffffff66;
     background-blend-mode: lighten;
     background-size: 100% 100%;
@@ -11,7 +11,7 @@
     min-height: 100vh;
     width: 100%;
     color: white; /* 文字色を白に設定 */
-    display: table;background-image: url('/assets/coffee-5447420_1280.jpg');
+    display: table;background-image: image-url("coffee-5447420_1280.jpg");
     background-color: rgba(200, 200, 200, 0.4); /* 明るめのグレーがかった背景 */
     background-blend-mode: lighten; /* 背景画像と色をlightenモードでブレンド */
     background-size: cover; /* 背景画像が要素にフィットするように設定 */
@@ -20,7 +20,7 @@
 .cover-user-edit {
     min-height: 100vh; /* ビューポートの高さに合わせる */
     width: 100%;
-    background-image: url(/assets/white_00096.jpg);
+    background-image: image-url("white_00096.jpg");
     background-color: rgba(255, 255, 255, 0.4);
     background-blend-mode: lighten;
     background-size: cover; /* アスペクト比を保ちながら画面全体に表示 */
@@ -49,7 +49,7 @@
     }
 
     .cover-user-index {
-        display: table;background-image: url('/assets/coffee-5447420_1280.jpg');
+        display: table;background-image: image-url("coffee-5447420_1280.jpg");
         background-color: rgba(200, 200, 200, 0.4); /* 明るめのグレーがかった背景 */
         background-blend-mode: lighten; /* 背景画像と色をlightenモードでブレンド */
         background-size: cover; /* 背景画像が要素にフィットするように設定 */
