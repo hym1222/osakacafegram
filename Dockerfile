@@ -14,6 +14,8 @@ FROM base as build
 # Install packages needed to build gems
 RUN apt-get update -qq && \
     apt-get install --no-install-recommends -y build-essential git libvips pkg-config libpq-dev nodejs
+
+RUN gem update --system 3.3.22
 # Install application gems
 COPY Gemfile Gemfile.lock ./
 RUN bundle install && \
