@@ -10,8 +10,11 @@ services:
     env: ruby
     region: Oregon
     plan: free
-    buildCommand: "./bin/render-build.sh"
-    startCommand: "bundle exec puma -C config/puma.rb"
+    buildCommand: |
+      bundle install
+      bundle exec rake assets:precompile
+      bundle exec rake assets:clean
+    startCommand: bundle exec rails s
     preDeployCommand: ./bin/rails db:migrate
     envVars:
       - key: DATABASE_URL
@@ -22,3 +25,5 @@ services:
         sync: false
       - key: WEB_CONCURRENCY
         value: 2
+      - key: RAILS_ENV
+        value: production
