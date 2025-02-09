@@ -1,0 +1,18 @@
+current directory: /Users/rionahayami/Desktop/portfolio/osakacafegram/vendor/bundle/ruby/3.1.0/gems/stringio-3.1.2/ext/stringio
+/Users/rionahayami/.rbenv/versions/3.1.2/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /Users/rionahayami/Desktop/portfolio/osakacafegram/vendor/bundle/ruby/3.1.0/gems/stringio-3.1.2/ext/stringio
+make DESTDIR\= sitearchdir\=./.gem.20250207-3005-iob1oy sitelibdir\=./.gem.20250207-3005-iob1oy clean
+
+current directory: /Users/rionahayami/Desktop/portfolio/osakacafegram/vendor/bundle/ruby/3.1.0/gems/stringio-3.1.2/ext/stringio
+make DESTDIR\= sitearchdir\=./.gem.20250207-3005-iob1oy sitelibdir\=./.gem.20250207-3005-iob1oy
+compiling stringio.c
+linking shared-object stringio.bundle
+
+current directory: /Users/rionahayami/Desktop/portfolio/osakacafegram/vendor/bundle/ruby/3.1.0/gems/stringio-3.1.2/ext/stringio
+make DESTDIR\= sitearchdir\=./.gem.20250207-3005-iob1oy sitelibdir\=./.gem.20250207-3005-iob1oy install
+/usr/bin/install -c -m 0755 stringio.bundle ./.gem.20250207-3005-iob1oy
+
+current directory: /Users/rionahayami/Desktop/portfolio/osakacafegram/vendor/bundle/ruby/3.1.0/gems/stringio-3.1.2/ext/stringio
+make DESTDIR\= sitearchdir\=./.gem.20250207-3005-iob1oy sitelibdir\=./.gem.20250207-3005-iob1oy clean

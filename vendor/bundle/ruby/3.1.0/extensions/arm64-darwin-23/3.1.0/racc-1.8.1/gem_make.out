@@ -1,0 +1,18 @@
+current directory: /Users/rionahayami/Desktop/portfolio/osakacafegram/vendor/bundle/ruby/3.1.0/gems/racc-1.8.1/ext/racc/cparse
+/Users/rionahayami/.rbenv/versions/3.1.2/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /Users/rionahayami/Desktop/portfolio/osakacafegram/vendor/bundle/ruby/3.1.0/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20250207-3005-fnarcn sitelibdir\=./.gem.20250207-3005-fnarcn clean
+
+current directory: /Users/rionahayami/Desktop/portfolio/osakacafegram/vendor/bundle/ruby/3.1.0/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20250207-3005-fnarcn sitelibdir\=./.gem.20250207-3005-fnarcn
+compiling cparse.c
+linking shared-object racc/cparse.bundle
+
+current directory: /Users/rionahayami/Desktop/portfolio/osakacafegram/vendor/bundle/ruby/3.1.0/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20250207-3005-fnarcn sitelibdir\=./.gem.20250207-3005-fnarcn install
+/usr/bin/install -c -m 0755 cparse.bundle ./.gem.20250207-3005-fnarcn/racc
+
+current directory: /Users/rionahayami/Desktop/portfolio/osakacafegram/vendor/bundle/ruby/3.1.0/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20250207-3005-fnarcn sitelibdir\=./.gem.20250207-3005-fnarcn clean
