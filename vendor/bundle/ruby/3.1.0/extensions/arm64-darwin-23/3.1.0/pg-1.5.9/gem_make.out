@@ -27,10 +27,10 @@ creating extconf.h
 creating Makefile
 
 current directory: /Users/rionahayami/Desktop/portfolio/osakacafegram/vendor/bundle/ruby/3.1.0/gems/pg-1.5.9/ext
-make DESTDIR\= sitearchdir\=./.gem.20250207-3005-gzy347 sitelibdir\=./.gem.20250207-3005-gzy347 clean
+make DESTDIR\= sitearchdir\=./.gem.20250209-10677-vhurqd sitelibdir\=./.gem.20250209-10677-vhurqd clean
 
 current directory: /Users/rionahayami/Desktop/portfolio/osakacafegram/vendor/bundle/ruby/3.1.0/gems/pg-1.5.9/ext
-make DESTDIR\= sitearchdir\=./.gem.20250207-3005-gzy347 sitelibdir\=./.gem.20250207-3005-gzy347
+make DESTDIR\= sitearchdir\=./.gem.20250209-10677-vhurqd sitelibdir\=./.gem.20250209-10677-vhurqd
 compiling gvl_wrappers.c
 compiling pg.c
 compiling pg_binary_decoder.c
@@ -55,9 +55,9 @@ compiling pg_util.c
 linking shared-object pg_ext.bundle
 
 current directory: /Users/rionahayami/Desktop/portfolio/osakacafegram/vendor/bundle/ruby/3.1.0/gems/pg-1.5.9/ext
-make DESTDIR\= sitearchdir\=./.gem.20250207-3005-gzy347 sitelibdir\=./.gem.20250207-3005-gzy347 install
-/usr/bin/install -c -m 0755 pg_ext.bundle ./.gem.20250207-3005-gzy347
+make DESTDIR\= sitearchdir\=./.gem.20250209-10677-vhurqd sitelibdir\=./.gem.20250209-10677-vhurqd install
+/usr/bin/install -c -m 0755 pg_ext.bundle ./.gem.20250209-10677-vhurqd
 installing pg_ext libraries
 
 current directory: /Users/rionahayami/Desktop/portfolio/osakacafegram/vendor/bundle/ruby/3.1.0/gems/pg-1.5.9/ext
-make DESTDIR\= sitearchdir\=./.gem.20250207-3005-gzy347 sitelibdir\=./.gem.20250207-3005-gzy347 clean
+make DESTDIR\= sitearchdir\=./.gem.20250209-10677-vhurqd sitelibdir\=./.gem.20250209-10677-vhurqd clean

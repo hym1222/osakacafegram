@@ -14,10 +14,10 @@ checking for sys/resource.h... yes
 creating Makefile
 
 current directory: /Users/rionahayami/Desktop/portfolio/osakacafegram/vendor/bundle/ruby/3.1.0/gems/nio4r-2.7.4/ext/nio4r
-make DESTDIR\= sitearchdir\=./.gem.20250207-3005-muhbxt sitelibdir\=./.gem.20250207-3005-muhbxt clean
+make DESTDIR\= sitearchdir\=./.gem.20250209-10677-s8mpiz sitelibdir\=./.gem.20250209-10677-s8mpiz clean
 
 current directory: /Users/rionahayami/Desktop/portfolio/osakacafegram/vendor/bundle/ruby/3.1.0/gems/nio4r-2.7.4/ext/nio4r
-make DESTDIR\= sitearchdir\=./.gem.20250207-3005-muhbxt sitelibdir\=./.gem.20250207-3005-muhbxt
+make DESTDIR\= sitearchdir\=./.gem.20250209-10677-s8mpiz sitelibdir\=./.gem.20250209-10677-s8mpiz
 compiling bytebuffer.c
 compiling monitor.c
 compiling nio4r_ext.c
@@ -360,8 +360,8 @@ compiling selector.c
 linking shared-object nio4r_ext.bundle
 
 current directory: /Users/rionahayami/Desktop/portfolio/osakacafegram/vendor/bundle/ruby/3.1.0/gems/nio4r-2.7.4/ext/nio4r
-make DESTDIR\= sitearchdir\=./.gem.20250207-3005-muhbxt sitelibdir\=./.gem.20250207-3005-muhbxt install
-/usr/bin/install -c -m 0755 nio4r_ext.bundle ./.gem.20250207-3005-muhbxt
+make DESTDIR\= sitearchdir\=./.gem.20250209-10677-s8mpiz sitelibdir\=./.gem.20250209-10677-s8mpiz install
+/usr/bin/install -c -m 0755 nio4r_ext.bundle ./.gem.20250209-10677-s8mpiz
 
 current directory: /Users/rionahayami/Desktop/portfolio/osakacafegram/vendor/bundle/ruby/3.1.0/gems/nio4r-2.7.4/ext/nio4r
-make DESTDIR\= sitearchdir\=./.gem.20250207-3005-muhbxt sitelibdir\=./.gem.20250207-3005-muhbxt clean
+make DESTDIR\= sitearchdir\=./.gem.20250209-10677-s8mpiz sitelibdir\=./.gem.20250209-10677-s8mpiz clean

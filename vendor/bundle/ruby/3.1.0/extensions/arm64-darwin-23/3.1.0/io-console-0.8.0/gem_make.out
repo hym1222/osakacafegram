@@ -16,16 +16,16 @@ checking for ttyname_r()... yes
 creating Makefile
 
 current directory: /Users/rionahayami/Desktop/portfolio/osakacafegram/vendor/bundle/ruby/3.1.0/gems/io-console-0.8.0/ext/io/console
-make DESTDIR\= sitearchdir\=./.gem.20250207-3005-trzaqw sitelibdir\=./.gem.20250207-3005-trzaqw clean
+make DESTDIR\= sitearchdir\=./.gem.20250209-10677-yh0fmo sitelibdir\=./.gem.20250209-10677-yh0fmo clean
 
 current directory: /Users/rionahayami/Desktop/portfolio/osakacafegram/vendor/bundle/ruby/3.1.0/gems/io-console-0.8.0/ext/io/console
-make DESTDIR\= sitearchdir\=./.gem.20250207-3005-trzaqw sitelibdir\=./.gem.20250207-3005-trzaqw
+make DESTDIR\= sitearchdir\=./.gem.20250209-10677-yh0fmo sitelibdir\=./.gem.20250209-10677-yh0fmo
 compiling console.c
 linking shared-object io/console.bundle
 
 current directory: /Users/rionahayami/Desktop/portfolio/osakacafegram/vendor/bundle/ruby/3.1.0/gems/io-console-0.8.0/ext/io/console
-make DESTDIR\= sitearchdir\=./.gem.20250207-3005-trzaqw sitelibdir\=./.gem.20250207-3005-trzaqw install
-/usr/bin/install -c -m 0755 console.bundle ./.gem.20250207-3005-trzaqw/io
+make DESTDIR\= sitearchdir\=./.gem.20250209-10677-yh0fmo sitelibdir\=./.gem.20250209-10677-yh0fmo install
+/usr/bin/install -c -m 0755 console.bundle ./.gem.20250209-10677-yh0fmo/io
 
 current directory: /Users/rionahayami/Desktop/portfolio/osakacafegram/vendor/bundle/ruby/3.1.0/gems/io-console-0.8.0/ext/io/console
-make DESTDIR\= sitearchdir\=./.gem.20250207-3005-trzaqw sitelibdir\=./.gem.20250207-3005-trzaqw clean
+make DESTDIR\= sitearchdir\=./.gem.20250209-10677-yh0fmo sitelibdir\=./.gem.20250209-10677-yh0fmo clean

@@ -26,17 +26,17 @@ checking for RB_WARN_CATEGORY_DEPRECATED in ruby.h... yes
 creating Makefile
 
 current directory: /Users/rionahayami/Desktop/portfolio/osakacafegram/vendor/bundle/ruby/3.1.0/gems/bigdecimal-3.1.9/ext/bigdecimal
-make DESTDIR\= sitearchdir\=./.gem.20250207-3005-oouj9z sitelibdir\=./.gem.20250207-3005-oouj9z clean
+make DESTDIR\= sitearchdir\=./.gem.20250209-10677-ag22n2 sitelibdir\=./.gem.20250209-10677-ag22n2 clean
 
 current directory: /Users/rionahayami/Desktop/portfolio/osakacafegram/vendor/bundle/ruby/3.1.0/gems/bigdecimal-3.1.9/ext/bigdecimal
-make DESTDIR\= sitearchdir\=./.gem.20250207-3005-oouj9z sitelibdir\=./.gem.20250207-3005-oouj9z
+make DESTDIR\= sitearchdir\=./.gem.20250209-10677-ag22n2 sitelibdir\=./.gem.20250209-10677-ag22n2
 compiling bigdecimal.c
 compiling missing.c
 linking shared-object bigdecimal.bundle
 
 current directory: /Users/rionahayami/Desktop/portfolio/osakacafegram/vendor/bundle/ruby/3.1.0/gems/bigdecimal-3.1.9/ext/bigdecimal
-make DESTDIR\= sitearchdir\=./.gem.20250207-3005-oouj9z sitelibdir\=./.gem.20250207-3005-oouj9z install
-/usr/bin/install -c -m 0755 bigdecimal.bundle ./.gem.20250207-3005-oouj9z
+make DESTDIR\= sitearchdir\=./.gem.20250209-10677-ag22n2 sitelibdir\=./.gem.20250209-10677-ag22n2 install
+/usr/bin/install -c -m 0755 bigdecimal.bundle ./.gem.20250209-10677-ag22n2
 
 current directory: /Users/rionahayami/Desktop/portfolio/osakacafegram/vendor/bundle/ruby/3.1.0/gems/bigdecimal-3.1.9/ext/bigdecimal
-make DESTDIR\= sitearchdir\=./.gem.20250207-3005-oouj9z sitelibdir\=./.gem.20250207-3005-oouj9z clean
+make DESTDIR\= sitearchdir\=./.gem.20250209-10677-ag22n2 sitelibdir\=./.gem.20250209-10677-ag22n2 clean

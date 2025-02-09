@@ -26,18 +26,18 @@ checking for Random.bytes... yes
 creating Makefile
 
 current directory: /Users/rionahayami/Desktop/portfolio/osakacafegram/vendor/bundle/ruby/3.1.0/gems/puma-6.6.0/ext/puma_http11
-make DESTDIR\= sitearchdir\=./.gem.20250207-3005-3vid3h sitelibdir\=./.gem.20250207-3005-3vid3h clean
+make DESTDIR\= sitearchdir\=./.gem.20250209-10677-g796sd sitelibdir\=./.gem.20250209-10677-g796sd clean
 
 current directory: /Users/rionahayami/Desktop/portfolio/osakacafegram/vendor/bundle/ruby/3.1.0/gems/puma-6.6.0/ext/puma_http11
-make DESTDIR\= sitearchdir\=./.gem.20250207-3005-3vid3h sitelibdir\=./.gem.20250207-3005-3vid3h
+make DESTDIR\= sitearchdir\=./.gem.20250209-10677-g796sd sitelibdir\=./.gem.20250209-10677-g796sd
 compiling http11_parser.c
 compiling mini_ssl.c
 compiling puma_http11.c
 linking shared-object puma/puma_http11.bundle
 
 current directory: /Users/rionahayami/Desktop/portfolio/osakacafegram/vendor/bundle/ruby/3.1.0/gems/puma-6.6.0/ext/puma_http11
-make DESTDIR\= sitearchdir\=./.gem.20250207-3005-3vid3h sitelibdir\=./.gem.20250207-3005-3vid3h install
-/usr/bin/install -c -m 0755 puma_http11.bundle ./.gem.20250207-3005-3vid3h/puma
+make DESTDIR\= sitearchdir\=./.gem.20250209-10677-g796sd sitelibdir\=./.gem.20250209-10677-g796sd install
+/usr/bin/install -c -m 0755 puma_http11.bundle ./.gem.20250209-10677-g796sd/puma
 
 current directory: /Users/rionahayami/Desktop/portfolio/osakacafegram/vendor/bundle/ruby/3.1.0/gems/puma-6.6.0/ext/puma_http11
-make DESTDIR\= sitearchdir\=./.gem.20250207-3005-3vid3h sitelibdir\=./.gem.20250207-3005-3vid3h clean
+make DESTDIR\= sitearchdir\=./.gem.20250209-10677-g796sd sitelibdir\=./.gem.20250209-10677-g796sd clean

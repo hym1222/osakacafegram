@@ -3,10 +3,10 @@ current directory: /Users/rionahayami/Desktop/portfolio/osakacafegram/vendor/bun
 creating Makefile
 
 current directory: /Users/rionahayami/Desktop/portfolio/osakacafegram/vendor/bundle/ruby/3.1.0/gems/sassc-2.4.0/ext
-make DESTDIR\= sitearchdir\=./.gem.20250207-3005-l0ntf3 sitelibdir\=./.gem.20250207-3005-l0ntf3 clean
+make DESTDIR\= sitearchdir\=./.gem.20250209-10677-yv9gpm sitelibdir\=./.gem.20250209-10677-yv9gpm clean
 
 current directory: /Users/rionahayami/Desktop/portfolio/osakacafegram/vendor/bundle/ruby/3.1.0/gems/sassc-2.4.0/ext
-make DESTDIR\= sitearchdir\=./.gem.20250207-3005-l0ntf3 sitelibdir\=./.gem.20250207-3005-l0ntf3
+make DESTDIR\= sitearchdir\=./.gem.20250209-10677-yv9gpm sitelibdir\=./.gem.20250209-10677-yv9gpm
 compiling ./libsass/src/ast.cpp
 compiling ./libsass/src/ast2c.cpp
 compiling ./libsass/src/ast_fwd_decl.cpp
@@ -86,8 +86,8 @@ compiling ./libsass/src/values.cpp
 linking shared-object sassc/libsass.bundle
 
 current directory: /Users/rionahayami/Desktop/portfolio/osakacafegram/vendor/bundle/ruby/3.1.0/gems/sassc-2.4.0/ext
-make DESTDIR\= sitearchdir\=./.gem.20250207-3005-l0ntf3 sitelibdir\=./.gem.20250207-3005-l0ntf3 install
-/usr/bin/install -c -m 0755 libsass.bundle ./.gem.20250207-3005-l0ntf3/sassc
+make DESTDIR\= sitearchdir\=./.gem.20250209-10677-yv9gpm sitelibdir\=./.gem.20250209-10677-yv9gpm install
+/usr/bin/install -c -m 0755 libsass.bundle ./.gem.20250209-10677-yv9gpm/sassc
 
 current directory: /Users/rionahayami/Desktop/portfolio/osakacafegram/vendor/bundle/ruby/3.1.0/gems/sassc-2.4.0/ext
-make DESTDIR\= sitearchdir\=./.gem.20250207-3005-l0ntf3 sitelibdir\=./.gem.20250207-3005-l0ntf3 clean
+make DESTDIR\= sitearchdir\=./.gem.20250209-10677-yv9gpm sitelibdir\=./.gem.20250209-10677-yv9gpm clean

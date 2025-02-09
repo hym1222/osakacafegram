@@ -6,10 +6,10 @@ checking for altzone in time.h with  -Werror... no
 creating Makefile
 
 current directory: /Users/rionahayami/Desktop/portfolio/osakacafegram/vendor/bundle/ruby/3.1.0/gems/date-3.4.1/ext/date
-make DESTDIR\= sitearchdir\=./.gem.20250207-3005-ccikzn sitelibdir\=./.gem.20250207-3005-ccikzn clean
+make DESTDIR\= sitearchdir\=./.gem.20250209-10677-pe5li8 sitelibdir\=./.gem.20250209-10677-pe5li8 clean
 
 current directory: /Users/rionahayami/Desktop/portfolio/osakacafegram/vendor/bundle/ruby/3.1.0/gems/date-3.4.1/ext/date
-make DESTDIR\= sitearchdir\=./.gem.20250207-3005-ccikzn sitelibdir\=./.gem.20250207-3005-ccikzn
+make DESTDIR\= sitearchdir\=./.gem.20250209-10677-pe5li8 sitelibdir\=./.gem.20250209-10677-pe5li8
 compiling date_core.c
 compiling date_parse.c
 compiling date_strftime.c
@@ -17,8 +17,8 @@ compiling date_strptime.c
 linking shared-object date_core.bundle
 
 current directory: /Users/rionahayami/Desktop/portfolio/osakacafegram/vendor/bundle/ruby/3.1.0/gems/date-3.4.1/ext/date
-make DESTDIR\= sitearchdir\=./.gem.20250207-3005-ccikzn sitelibdir\=./.gem.20250207-3005-ccikzn install
-/usr/bin/install -c -m 0755 date_core.bundle ./.gem.20250207-3005-ccikzn
+make DESTDIR\= sitearchdir\=./.gem.20250209-10677-pe5li8 sitelibdir\=./.gem.20250209-10677-pe5li8 install
+/usr/bin/install -c -m 0755 date_core.bundle ./.gem.20250209-10677-pe5li8
 
 current directory: /Users/rionahayami/Desktop/portfolio/osakacafegram/vendor/bundle/ruby/3.1.0/gems/date-3.4.1/ext/date
-make DESTDIR\= sitearchdir\=./.gem.20250207-3005-ccikzn sitelibdir\=./.gem.20250207-3005-ccikzn clean
+make DESTDIR\= sitearchdir\=./.gem.20250209-10677-pe5li8 sitelibdir\=./.gem.20250209-10677-pe5li8 clean

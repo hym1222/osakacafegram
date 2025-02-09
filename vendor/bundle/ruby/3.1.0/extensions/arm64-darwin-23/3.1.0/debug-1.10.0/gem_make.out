@@ -3,17 +3,17 @@ current directory: /Users/rionahayami/Desktop/portfolio/osakacafegram/vendor/bun
 creating Makefile
 
 current directory: /Users/rionahayami/Desktop/portfolio/osakacafegram/vendor/bundle/ruby/3.1.0/gems/debug-1.10.0/ext/debug
-make DESTDIR\= sitearchdir\=./.gem.20250207-3005-ukfkwc sitelibdir\=./.gem.20250207-3005-ukfkwc clean
+make DESTDIR\= sitearchdir\=./.gem.20250209-10677-b4g8zi sitelibdir\=./.gem.20250209-10677-b4g8zi clean
 
 current directory: /Users/rionahayami/Desktop/portfolio/osakacafegram/vendor/bundle/ruby/3.1.0/gems/debug-1.10.0/ext/debug
-make DESTDIR\= sitearchdir\=./.gem.20250207-3005-ukfkwc sitelibdir\=./.gem.20250207-3005-ukfkwc
+make DESTDIR\= sitearchdir\=./.gem.20250209-10677-b4g8zi sitelibdir\=./.gem.20250209-10677-b4g8zi
 compiling debug.c
 compiling iseq_collector.c
 linking shared-object debug/debug.bundle
 
 current directory: /Users/rionahayami/Desktop/portfolio/osakacafegram/vendor/bundle/ruby/3.1.0/gems/debug-1.10.0/ext/debug
-make DESTDIR\= sitearchdir\=./.gem.20250207-3005-ukfkwc sitelibdir\=./.gem.20250207-3005-ukfkwc install
-/usr/bin/install -c -m 0755 debug.bundle ./.gem.20250207-3005-ukfkwc/debug
+make DESTDIR\= sitearchdir\=./.gem.20250209-10677-b4g8zi sitelibdir\=./.gem.20250209-10677-b4g8zi install
+/usr/bin/install -c -m 0755 debug.bundle ./.gem.20250209-10677-b4g8zi/debug
 
 current directory: /Users/rionahayami/Desktop/portfolio/osakacafegram/vendor/bundle/ruby/3.1.0/gems/debug-1.10.0/ext/debug
-make DESTDIR\= sitearchdir\=./.gem.20250207-3005-ukfkwc sitelibdir\=./.gem.20250207-3005-ukfkwc clean
+make DESTDIR\= sitearchdir\=./.gem.20250209-10677-b4g8zi sitelibdir\=./.gem.20250209-10677-b4g8zi clean

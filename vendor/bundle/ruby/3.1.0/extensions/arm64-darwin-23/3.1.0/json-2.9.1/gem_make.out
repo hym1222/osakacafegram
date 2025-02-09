@@ -9,16 +9,16 @@ checking for whether -std=c99 is accepted as CFLAGS... yes
 creating Makefile
 
 current directory: /Users/rionahayami/Desktop/portfolio/osakacafegram/vendor/bundle/ruby/3.1.0/gems/json-2.9.1/ext/json/ext/parser
-make DESTDIR\= sitearchdir\=./.gem.20250207-3005-wr3t9s sitelibdir\=./.gem.20250207-3005-wr3t9s clean
+make DESTDIR\= sitearchdir\=./.gem.20250209-10677-4h2omc sitelibdir\=./.gem.20250209-10677-4h2omc clean
 
 current directory: /Users/rionahayami/Desktop/portfolio/osakacafegram/vendor/bundle/ruby/3.1.0/gems/json-2.9.1/ext/json/ext/parser
-make DESTDIR\= sitearchdir\=./.gem.20250207-3005-wr3t9s sitelibdir\=./.gem.20250207-3005-wr3t9s
+make DESTDIR\= sitearchdir\=./.gem.20250209-10677-4h2omc sitelibdir\=./.gem.20250209-10677-4h2omc
 compiling parser.c
 linking shared-object json/ext/parser.bundle
 
 current directory: /Users/rionahayami/Desktop/portfolio/osakacafegram/vendor/bundle/ruby/3.1.0/gems/json-2.9.1/ext/json/ext/parser
-make DESTDIR\= sitearchdir\=./.gem.20250207-3005-wr3t9s sitelibdir\=./.gem.20250207-3005-wr3t9s install
-/usr/bin/install -c -m 0755 parser.bundle ./.gem.20250207-3005-wr3t9s/json/ext
+make DESTDIR\= sitearchdir\=./.gem.20250209-10677-4h2omc sitelibdir\=./.gem.20250209-10677-4h2omc install
+/usr/bin/install -c -m 0755 parser.bundle ./.gem.20250209-10677-4h2omc/json/ext
 
 current directory: /Users/rionahayami/Desktop/portfolio/osakacafegram/vendor/bundle/ruby/3.1.0/gems/json-2.9.1/ext/json/ext/parser
-make DESTDIR\= sitearchdir\=./.gem.20250207-3005-wr3t9s sitelibdir\=./.gem.20250207-3005-wr3t9s clean
+make DESTDIR\= sitearchdir\=./.gem.20250209-10677-4h2omc sitelibdir\=./.gem.20250209-10677-4h2omc clean
