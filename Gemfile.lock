@@ -170,7 +170,7 @@ GEM
       activerecord
       kaminari-core (= 1.2.2)
     kaminari-core (1.2.2)
-    logger (1.6.5)
+    logger (1.6.6)
     loofah (2.24.0)
       crass (~> 1.0.2)
       nokogiri (>= 1.12.0)
@@ -231,7 +231,7 @@ GEM
     puma (6.6.0)
       nio4r (~> 2.0)
     racc (1.8.1)
-    rack (2.2.10)
+    rack (2.2.11)
     rack-protection (2.0.8.1)
       rack
     rack-session (1.0.2)
@@ -378,7 +378,6 @@ DEPENDENCIES
   jbuilder
   jquery-rails
   kaminari
-  nokogiri
   pg
   puma (>= 5.0)
   rails (~> 7.2.2.1)
@@ -386,7 +385,6 @@ DEPENDENCIES
   refile-mini_magick
   sassc-rails
   selenium-webdriver
-  sprockets-rails
   sqlite3 (~> 1.4)
   stimulus-rails
   turbo-rails
