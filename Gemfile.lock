@@ -378,6 +378,7 @@ DEPENDENCIES
   jbuilder
   jquery-rails
   kaminari
+  nokogiri
   pg
   puma (>= 5.0)
   rails (~> 7.2.2.1)
@@ -385,6 +386,7 @@ DEPENDENCIES
   refile-mini_magick
   sassc-rails
   selenium-webdriver
+  sprockets-rails
   sqlite3 (~> 1.4)
   stimulus-rails
   turbo-rails
