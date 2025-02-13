@@ -7,7 +7,6 @@ require "rails/all"
 Bundler.require(*Rails.groups)
 
 # 必要に応じて以下を追加
-require 'sprockets/railtie'
 
 module Osakacafegram
   class Application < Rails::Application
